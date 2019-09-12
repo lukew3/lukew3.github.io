@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+}
+
+#invisiblebox {
+    position: fixed;
+    margin: 0;
+    background-color: red;
+    height: 64px;
+    width: 100vw;
+}
