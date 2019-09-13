@@ -14,21 +14,28 @@ html {
 .landingText {
     position: absolute;
     text-align: center;
-    top: 40%;
-    left: 20%;
-    height: 40%;
-    width: 70%;
-    
+    height: auto;
+    width: auto;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
 }
 
 .myName {
-    font-size: 100px;
+    position: relative;
+    top: -30%;
+    font-size: 20vmin;
 }
 
 .myQuote {
-    font-size: 20px;
+    position: relative;
+    font-size: 5vmin;
+    top: -55%;
 }
 
 .mySlogan {
-    font-size: 25px;
+    position: relative;
+    font-size: 7vmin;
+    top: -60%;
 }
