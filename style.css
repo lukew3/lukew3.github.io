@@ -30,6 +30,7 @@ ul.navbar {
     margin: 0;
     padding: 0;
     height: 64px;
+    float: left;
 }
 li {
     float: left;
@@ -43,7 +44,6 @@ a {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
 }
-
 li a:hover {
     background-color: #111;
 }
