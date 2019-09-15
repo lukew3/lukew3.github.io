@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    color: white;
 }
 
 .bgImage {
@@ -12,15 +11,44 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: url('/images/city-wallpaper2.jpg');
-    background-size:100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
+/*navbar*/
 nav {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
+    height: 64px;
+    opacity: 0.4;
+    background-color: grey;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 64px;
+}
+li {
+    float: left;
+    height: 64px;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
+li a:hover {
+    background-color: #111;
+}
+
+/*Text on the opening page*/
 .landingText {
     position: absolute;
     text-align: center;
@@ -30,8 +58,8 @@ nav {
     bottom: 25%;
     left: 5%;
     right: 5%;
+    color: white;
 }
-
 .myName {
     position: relative;
     font-size: 20vmin;
@@ -39,18 +67,19 @@ nav {
     font-family: 'Open Sans', sans-serif;
 
 }
-
 .myQuote {
     position: relative;
-    font-size: 5vmin;
+    font-size: 3vmin;
     top: -55%;
     font-family: 'Open Sans', sans-serif;
 }
-
 .mySlogan {
     position: relative;
     font-size: 7vmin;
     top: -60%;
     font-family: 'Open Sans', sans-serif;
+}
+.mainText {
+    padding: 40px;
 }
 /*font-family: 'Lato', sans-serif;*/
