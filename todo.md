@@ -1,5 +1,0 @@
-Center front page items even when screen is resized
-*Dont allow them to overlap when resized
-Make navbar mobile friendly
-*Make navbar collapse into menu when there is not enough room
-*Allow it to be more readable on mobile devices with smaller screens
