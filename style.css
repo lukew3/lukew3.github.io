@@ -49,35 +49,35 @@ li a:hover {
 }
 
 /*Text on the opening page*/
-.landingText {
+.landingTextBox {
     position: absolute;
     text-align: center;
     height: auto;
     width: auto;
     top: 25%;
     bottom: 25%;
-    left: 5%;
-    right: 5%;
+    left: 10%;
+    right: 10%;
     color: white;
 }
+
 .myName {
     position: relative;
-    font-size: 20vmin;
-    top: -30%;
+    font-size: 8rem;
     font-family: 'Open Sans', sans-serif;
-
+    margin-top: -1rem;
 }
 .myQuote {
     position: relative;
-    font-size: 3vmin;
-    top: -55%;
+    font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
+    margin-top: -4rem;
 }
 .mySlogan {
     position: relative;
-    font-size: 7vmin;
-    top: -60%;
+    font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
+    margin-top: -1rem;
 }
 .mainText {
     padding: 40px;
