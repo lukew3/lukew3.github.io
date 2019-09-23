@@ -79,6 +79,17 @@ li a:hover {
     font-family: 'Open Sans', sans-serif;
     margin-top: -1rem;
 }
+.guidanceArrow {
+    position: relative;
+    margin-left: -25px;
+    left: 50%;
+    top: 10rem;
+    height: 50px;
+    width: 50px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+}
 .mainText {
     padding: 40px;
 }
