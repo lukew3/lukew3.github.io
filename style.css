@@ -101,6 +101,7 @@ body {
 }
 
 #pageTitle {
+  font-weight: normal;
   font-family: Roboto;
   position: relative;
   display: block;
@@ -109,10 +110,10 @@ body {
   height: 20vh;
   color: #EF6461;
   margin: auto;
-  font-weight: normal;
 }
 
 #pageDescription {
+  font-weight: normal;
   margin: auto;
   padding: none;
   position: relative;
@@ -125,7 +126,6 @@ body {
   float: right;
   text-align: right;
   color: #E4B363;
-  font-weight: normal;
 }
 
 #content {
