@@ -88,8 +88,9 @@ body {
   height: 15vmin;
   left: 15vw;
   top: 15vh;
-
-  background: #EF6461;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  
+  background: #75B9BE;
 }
 
 #text {
@@ -109,7 +110,7 @@ body {
   color: white;
   font-size: 18vh;
   height: 0vh;
-  color: #EF6461;
+  color: #75B9BE;
 }
 
 #pageDescription {
@@ -124,7 +125,7 @@ body {
   height: 0vw;
   float: right;
   text-align: right;
-  color: #E4B363;
+  color: #A8CCC9;
 }
 
 #content {

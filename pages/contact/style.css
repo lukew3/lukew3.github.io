@@ -84,12 +84,14 @@ body {
 
 #accentbox {
   position: absolute;
-  width: 15vmin;
-  height: 15vmin;
   left: 15vw;
   top: 15vh;
-
-  background: #EF6461;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7.5vmin 13.0vmin 7.5vmin;
+  border-color: transparent transparent #FFAF87 transparent;
+  
 }
 
 #text {
@@ -109,7 +111,7 @@ body {
   color: white;
   font-size: 18vh;
   height: 0vh;
-  color: #EF6461;
+  color: #FFAF87;
 }
 
 #pageDescription {
@@ -124,7 +126,7 @@ body {
   height: 0vw;
   float: right;
   text-align: right;
-  color: #E4B363;
+  color: #FF8E72;
 }
 
 #content {

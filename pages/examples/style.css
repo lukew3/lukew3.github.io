@@ -88,8 +88,8 @@ body {
   height: 15vmin;
   left: 15vw;
   top: 15vh;
-
-  background: #EF6461;
+  border-radius: 50%;
+  background: #85BAA1;
 }
 
 #text {
@@ -109,7 +109,7 @@ body {
   color: white;
   font-size: 18vh;
   height: 0vh;
-  color: #EF6461;
+  color: #85BAA1;
 }
 
 #pageDescription {
@@ -120,11 +120,11 @@ body {
   display: block;
   color: grey;
   font-size: 8vh;
-  width: 30vw;
+  width: 35vw;
   height: 0vw;
   float: right;
   text-align: right;
-  color: #E4B363;
+  color: #CECECE;
 }
 
 #content {
