@@ -97,34 +97,35 @@ body {
   width: auto;
   height: 40vh;
   right: 10vw;
-  bottom: 40vh;
+  bottom: 20vh;
 }
 
 #pageTitle {
   font-family: Roboto;
-  background-color: green;
-  padding: none;
   position: relative;
   display: block;
   color: white;
   font-size: 18vh;
-  height: 0vh;
+  height: 20vh;
   color: #EF6461;
+  margin: auto;
+  font-weight: normal;
 }
 
 #pageDescription {
-  font-family: Roboto;
+  margin: auto;
   padding: none;
-  background-color: red;
   position: relative;
+  width: 30vw;
+  height: 10vw;
+  font-family: Roboto;    
   display: block;
   color: grey;
   font-size: 8vh;
-  width: 30vw;
-  height: 0vw;
   float: right;
   text-align: right;
   color: #E4B363;
+  font-weight: normal;
 }
 
 #content {
