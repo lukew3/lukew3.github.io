@@ -1,85 +1,42 @@
 body {
   background-color: #333333
 }
-#home {
+
+.navElement{
   position: fixed;
-  width: 1px;
+  width: 2vh;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vh;
+  line-height: 3vh;
+  text-align: center;
+  
+  overflow-wrap: break-word;
+  text-decoration: none;
+
+  color: #E8E9EB;
+}
+#home {
   height: 116px;
   left: 27px;
   top: 5vh;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3vh;
-
-  line-height: 3vh;
-  text-align: center;
-
-  overflow-wrap: break-word;
-  text-decoration: none;
-
-  color: #E8E9EB;
 }
-
 #examples {
-  position: fixed;
-  width: 1px;
   height: 229px;
   left: 27.02px;
   top: 23vh;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3vh;
-  line-height: 3vh;
-  text-align: center;
-
-  overflow-wrap: break-word;
-  text-decoration: none;
-
-  color: #E8E9EB;
 }
-
 #contact {
-  position: fixed;
-  width: 1px;
   height: 208px;
   left: 27.32px;
   top: 53vh;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3vh;
-  line-height: 3vh;
-  text-align: center;
-
-  overflow-wrap: break-word;
-  text-decoration: none;
-
-  color: #E8E9EB;
 }
-
 #about {
-  position: fixed;
-  width: 1px;
   height: 140px;
   left: 26.33px;
   top: 80vh;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3vh;
-  line-height: 3vh;
-  text-align: center;
-
-  overflow-wrap: break-word;
-  text-decoration: none;
-
-  color: #E8E9EB;
 }
 
 #accentbox {
@@ -126,6 +83,12 @@ body {
   float: right;
   text-align: right;
   color: #E4B363;
+}
+
+#myPhoto {
+  top: 100vh;
+  height: 60vh;
+  width: 40vh;
 }
 
 #content {
