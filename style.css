@@ -5,14 +5,14 @@ body {
 .navElement{
   position: fixed;
   width: 2vh;
-  
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 3vh;
   line-height: 3vh;
   text-align: center;
-  
+
   overflow-wrap: break-word;
   text-decoration: none;
 
@@ -76,7 +76,7 @@ body {
   position: relative;
   width: 30vw;
   height: 10vw;
-  font-family: Roboto;    
+  font-family: Roboto;
   display: block;
   color: grey;
   font-size: 8vh;

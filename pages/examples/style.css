@@ -1,17 +1,24 @@
 body {
   background-color: #333333
 }
+a {
+  color: white;
+}
+
+h1 {
+  font-family: Roboto;
+}
 .navElement{
   position: fixed;
   width: 2vh;
-  
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 3vh;
   line-height: 3vh;
   text-align: center;
-  
+
   overflow-wrap: break-word;
   text-decoration: none;
 
@@ -86,7 +93,32 @@ body {
 #content {
   position: absolute;
   top: 100%;
-  left: 5vw;
   color: white;
-  padding: 30px;
+  margin: 7vw;
+  height: 200%;
+  width: 86vw;
+}
+
+#jumpTo {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 5vh;
+}
+#projectsList {
+  font-size: 2vh;
+  text-align: center;
+}
+
+.jumpDown {
+  text-decoration: none;
+  color: white;
+}
+.projectName {
+  list-style-type: none;
+  display: inline;
+  padding: 25px;
+}
+
+.project {
+  padding: 25px;
 }
