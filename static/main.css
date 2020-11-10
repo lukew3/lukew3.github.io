@@ -1,7 +1,15 @@
 body {
   background-color: #333333
 }
-
+a {
+  color: white;
+}
+p {
+  font-size: 16pt;
+}
+li {
+  font-size: 16pt;
+}
 .navElement{
   position: fixed;
   width: 2vh;
@@ -41,48 +49,40 @@ body {
 
 #accentbox {
   position: absolute;
-  width: 15vmin;
-  height: 15vmin;
-  left: 15vw;
-  top: 15vh;
-
-  background: #EF6461;
 }
-
+/* Make text div a percent of the width of the viewscreen and make text fit perfectly in box with % units as font-size*/
 #text {
   position: absolute;
-  width: auto;
-  height: 40vh;
-  right: 10vw;
-  bottom: 20vh;
+  width: 40vmax;
+  height: 25vmax;
+  top: 40%;
+  right: 10%;
 }
 
 #pageTitle {
+  margin: none;
   font-weight: normal;
   font-family: Roboto;
   position: relative;
   display: block;
   color: white;
-  font-size: 18vh;
-  height: 20vh;
-  color: #EF6461;
-  margin: auto;
+  font-size: calc(1.7rem + 6vw);
+  margin: 0px;
+  text-align: right;
+  float: right;
+  height: auto;
 }
 
 #pageDescription {
   font-weight: normal;
   margin: auto;
-  padding: none;
   position: relative;
-  width: 30vw;
-  height: 10vw;
+  width: 80%;
   font-family: Roboto;
   display: block;
-  color: grey;
-  font-size: 8vh;
+  font-size: calc(1rem + 4vw);
   float: right;
   text-align: right;
-  color: #E4B363;
 }
 
 #myPhoto {
@@ -98,4 +98,5 @@ body {
   color: white;
   padding: 30px;
   font-family: 'Open Sans', sans-serif;
+  width: 80vw;
 }
