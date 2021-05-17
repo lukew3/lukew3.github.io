@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>lukew3</title>
+</head>
+<body>
+	<img class="bg" src="./cherry-blossom.png">
+	<div class="homeText">
+		<em><h1 class="nameTag">Luke Weiler</h1></em>
+		<p>
+			<a href="https://github.com/lukew3">Github</a> //
+			<a href="https://google.com">Resume</a> // 
+			<a href="https://google.com">Contact</a>
+		</p>
+	</div>
+</body>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: none;
+  background-color: lightblue;
+}
+
+.homeText {
+	position: absolute;
+	left: 200px;
+	top: 35vh;
+}
+
+.nameTag {
+	font-size: 40pt;
+}
+
+.bg {
+  height: 100%;
+  position: absolute;
+  overflow: none;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.homeText {
+		left: 10vw;
+		top: 10vh;
+	}
+	.bg {
+		right: -90vw;
+		top: 20vh;
+	}
+}
+</style>
+</html>

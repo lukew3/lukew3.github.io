@@ -1,62 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
+<html>
+<head>
+<title>lukew3</title>
+</head>
+<body>
+	<img class="bg" src="./cherry-blossom.png">
+	<div class="homeText">
+		<em><h1 class="nameTag">Luke Weiler</h1></em>
+		<p>
+			<a href="https://github.com/lukew3">Github</a> //
+			<a href="./lukeweiler-resume.pdf" download="lukeweiler-resume">Resume</a> // 
+			<a href="https://google.com">Contact</a>
+		</p>
+	</div>
+</body>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: none;
+  background-color: lightblue;
+}
 
-        <title>lukew3</title>
-        <link rel="stylesheet" type="text/css" href="../static/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/png" href="../static/defaultFavicon.png"/>
-        <style>
+.homeText {
+	position: absolute;
+	left: 200px;
+	top: 35vh;
+}
 
-  #accentbox {
-    position: absolute;
-    width: 15vmin;
-    height: 15vmin;
-    left: 15vw;
-    top: 15vh;
-    background: #EF6461;
-  }
-  #pageTitle {
-    color: #EF6461;
-  }
-  #pageDescription {
-    color: #E4B363;
-  }
+.nameTag {
+	font-size: 40pt;
+}
 
-        </style>
-    </head>
-    <body>
-      <div id=sidenav class=nav>
-        <a href="#" id="home" class="navElement">Home</a>
-        <a href="/pages/examples.html" id="examples" class="navElement">Examples</a>
-        <a href="/pages/contact.html" id="contact" class="navElement">Contact</a>
-        <a href="/pages/about.html" id="about" class="navElement">About</a>
-      </div>
+.bg {
+  height: 100%;
+  position: absolute;
+  overflow: none;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
 
-      <div id=accentbox></div>
-      <div id="text">
-
-<p id="pageTitle">Luke Weiler</p>
-<p id="pageDescription">A developer for the future</p>
-
-      </div>
-
-
-  <div id="content">
-    <p>Hi! I'm Luke, an aspiring computer programmer. I enjoy running, listening to music, and most importantly, programming! So far I have dabbled in a little bit of everything.</p>
-    <p>Some of my skills are: </p>
-    <ul>
-      <li>Front-end web development</li>
-      <li>Digital design</li>
-      <li>Photo editing</li>
-      <li>Python</li>
-      <li>Javascript</li>
-      <li>and Java</li>
-    </ul>
-    <p>I hope that you like what you see on my page! Fell free to contact me via the contact tab or at my email lukew25073@gmail.com!</p>
-  </div>
-
-
-    </body>
+@media screen and (max-width: 600px) {
+	.homeText {
+		left: 10vw;
+		top: 10vh;
+	}
+	.bg {
+		right: -90vw;
+		top: 20vh;
+	}
+}
+</style>
 </html>
