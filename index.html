@@ -3,6 +3,7 @@
 <head>
 <title>lukew3</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="./main.css">
 </head>
 <body>
 	<div class="bgContainer">
@@ -19,66 +20,4 @@
 		</p>
 	</div>
 </body>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: none;
-  background-color: lightblue;
-}
-
-.homeText {
-	position: absolute;
-	left: 200px;
-	top: 33%;
-}
-
-.nameTag {
-	font-size: 40pt;
-}
-
-.bgContainer {
-  position: absolute;
-  right: 0;
-  top: 0;
-  overflow: none;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
-.bgSpacer {
-  width: 230px;
-  position: static;
-  flex-shrink: 0;
-}
-.bg {
-  margin: 0;
-  position: static;
-  flex-shrink: 1;
-}
-
-@media screen and (max-width: 600px) {
-	.homeText {
-		left: 10vw;
-		top: 10vh;
-	}
-	.bgSpacer {
-		width: 0;
-	}
-	.bg {
-		margin-top:160px;
-		margin-left: -40px;
-	}
-	/*
-	.bg {
-		right: -90vw;
-		top: 20vh;
-	}
-	*/
-}
-</style>
 </html>
